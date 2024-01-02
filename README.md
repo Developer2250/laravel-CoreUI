@@ -30,8 +30,10 @@ Follow the steps mentioned below to install and run the project.
 
 1. Clone or download the repository
 2. Go to the project directory (cd laavel-coreui) and run `composer install` and `npm install`
-    1. It will install all the laravel (PHP) packages by the command `composer install` (if you do not have `composer` then install it - https://getcomposer.org/download/)
-    2. It will install all the NPM packages by the command `npm install` (if you do not have npm then install it - https://nodejs.org/en/download)
+    1. It will install all the laravel (PHP) packages by the command `composer install` 
+      - if you do not have `composer` then install it - https://getcomposer.org/download/
+    2. It will install all the NPM packages by the command `npm install` 
+      - if you do not have npm then install it - https://nodejs.org/en/download
 3. Create `.env` file by copying the `.env.example`.
 4. Run the command `composer run-script post-create-project-cmd` to APP_KEY
 5. Update the database name and credentials in `.env` file
@@ -41,13 +43,9 @@ Follow the steps mentioned below to install and run the project.
 9. Run the application using this command: `php artisan serve` from the project root and also run the command for vite server `npm run de` and visit `http://127.0.0.1:8000`
 
 # Login 
-email: `super@admin.com` 
+email: `super@admin.com` <br>
 password: `secret`
 
-
-# Screenshots
-Login View
-![login](https://prnt.sc/zeHRc5TqFMbN)
 
 ## License
 
